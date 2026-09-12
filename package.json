@@ -1,0 +1,28 @@
+{
+  "name": "moveri-web",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "optimize-images": "node scripts/optimize-images.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.487.0",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "sharp": "^0.35.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.6.3"
+  }
+}

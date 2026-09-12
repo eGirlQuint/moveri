@@ -1,0 +1,27 @@
+[Unit]
+Description=Moveri Next.js app
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/moveri/current
+# Holds the real secret — see .env.local.example for what belongs here.
+# chmod 600 this file, owned by the same user/group as above.
+EnvironmentFile=/var/www/moveri/shared/.env.production.local
+Environment=PORT=3000
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+RestartSec=5
+
+# Light sandboxing — the app only needs to read its own directory and talk
+# to the network (to reach the Discord webhook).
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/var/www/moveri/current/.next/cache
+
+[Install]
+WantedBy=multi-user.target
