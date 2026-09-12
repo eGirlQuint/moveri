@@ -212,7 +212,7 @@ export function TermsPage() {
             Terms & conditions
           </h1>
           <p className="text-foreground/65 leading-relaxed" style={DF}>
-            This page is currently only available in Dutch. Please use the language switch at the top of the page to view the terms & conditions in Dutch.
+            This page is only available in Dutch, because they contain legal matters. Please translate the content from Dutch yourself, understanding detail might be lost in translation. Use the language switch at the top of the page to view the privacy policy in Dutch. Contact irene@moveri.eu if you have any questions or concerns.
           </p>
         </div>
       </section>
