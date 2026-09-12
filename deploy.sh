@@ -1,3 +1,6 @@
+echo "Pulling latest changes from git"
+git pull
+
 echo "Installing packages..."
 npm i
 
