@@ -764,12 +764,17 @@
         ]
       },
       {
-        "kind": "inlineImage",
-        "src": "/images/actueel-tides-kathryn.webp",
-        "alt": {
-          "nl": "Kathryn Johnston, PhD, senior onderzoeker aan de Universiteit van Toronto",
-          "en": "Kathryn Johnston, PhD, senior researcher at the University of Toronto"
-        }
+        "kind": "p",
+        "nl": [
+          {
+            "text": "De eerste inzichten laten zien dat de weg naar de wereldtop niet door één moment of eigenschap wordt bepaald. Het is een samenspel van ervaringen, mogelijkheden, leervermogen, keuzes en een omgeving die op het juiste moment voldoende uitdaging biedt."
+          }
+        ],
+        "en": [
+          {
+            "text": "The initial insights show that the road to world-class performance isn't determined by a single moment or trait. It's an interplay of experiences, opportunities, learning ability, choices, and an environment that offers enough challenge at the right time."
+          }
+        ]
       },
       {
         "kind": "p",
@@ -785,17 +790,12 @@
         ]
       },
       {
-        "kind": "p",
-        "nl": [
-          {
-            "text": "De eerste inzichten laten zien dat de weg naar de wereldtop niet door één moment of eigenschap wordt bepaald. Het is een samenspel van ervaringen, mogelijkheden, leervermogen, keuzes en een omgeving die op het juiste moment voldoende uitdaging biedt."
-          }
-        ],
-        "en": [
-          {
-            "text": "The initial insights show that the road to world-class performance isn't determined by a single moment or trait. It's an interplay of experiences, opportunities, learning ability, choices, and an environment that offers enough challenge at the right time."
-          }
-        ]
+        "kind": "inlineImage",
+        "src": "/images/actueel-tides-kathryn.webp",
+        "alt": {
+          "nl": "Kathryn Johnston, PhD, senior onderzoeker aan de Universiteit van Toronto",
+          "en": "Kathryn Johnston, PhD, senior researcher at the University of Toronto"
+        }
       }
     ]
   },

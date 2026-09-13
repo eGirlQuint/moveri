@@ -143,7 +143,7 @@ function BlockRenderer({ block, lang, sourcesLabel, headingId }: { block: Block;
 
     case "termList":
       return (
-        <ol className="grid grid-cols-2 gap-x-6 gap-y-3" style={{ margin: 0, padding: 0, listStyle: "none" }}>
+        <ol className="flex flex-col gap-3" style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {block.items.map((term, i) => (
             <li key={i} className="flex items-center gap-3">
               <span style={{ flexShrink: 0, width: "24px", height: "24px", borderRadius: "50%", border: "1.5px solid var(--primary)", color: "var(--primary)", fontSize: "11px", fontWeight: 700, display: "grid", placeItems: "center", fontFamily: "var(--font-body)" }}>
