@@ -112,6 +112,20 @@ function BlockRenderer({ block, lang, sourcesLabel, headingId }: { block: Block;
         </div>
       )
 
+    case "numberedList":
+      return (
+        <ol className="flex flex-col gap-3" style={{ margin: 0, padding: 0, listStyle: "none" }}>
+          {block.items.map((item, i) => (
+            <li key={i} className="flex items-center gap-4">
+              <span style={{ flexShrink: 0, width: "28px", height: "28px", borderRadius: "50%", backgroundColor: "var(--primary)", color: "#fff", fontSize: "13px", fontWeight: 700, display: "grid", placeItems: "center", fontFamily: "var(--font-body)" }}>
+                {i + 1}
+              </span>
+              <span style={{ ...bodyText, fontSize: "15.5px", fontWeight: 500, color: "var(--foreground)" }}>{item[lang]}</span>
+            </li>
+          ))}
+        </ol>
+      )
+
     case "tipsList":
       return (
         <div className="flex flex-col gap-5">

@@ -16,6 +16,7 @@ export type Block =
   | { kind: "images"; items: Array<{ src: string; alt: Bi }> }
   | { kind: "inlineImage"; src: string; alt: Bi }
   | { kind: "orderedList"; items: Array<{ title: Bi; text: Bi }> }
+  | { kind: "numberedList"; items: Bi[] }
   | { kind: "termList"; items: string[] }
   | { kind: "tipsList"; items: Array<{ title: Bi; text: Bi }> }
   | { kind: "sources"; items: Array<{ citation: string; href?: string }> }

@@ -501,6 +501,89 @@
         "kind": "p",
         "nl": [
           {
+            "text": "Het position statement wilde verdergaan dan simpelweg vaststellen wat de literatuur ons vertelt over talentidentificatie, en stelde in plaats daarvan de vraag: wat betekent dit voor beleid en praktijk?"
+          }
+        ],
+        "en": [
+          {
+            "text": "The position statement aimed to move beyond simply identifying what the literature tells us about talent identification and instead ask: what does this mean for policy and practice?"
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Het resultaat is een set van 13 evidence-informed principes die richting geven aan hoe talentidentificatie-omgevingen worden vormgegeven, geïmplementeerd en geëvalueerd:"
+          }
+        ],
+        "en": [
+          {
+            "text": "The result is a set of 13 evidence-informed principles designed to guide how talent identification environments are designed, implemented and evaluated:"
+          }
+        ]
+      },
+      {
+        "kind": "numberedList",
+        "items": [
+          {
+            "nl": "Zet de persoon voor de sporter",
+            "en": "Put the person before the athlete"
+          },
+          {
+            "nl": "Begrijp de sociaal-culturele context",
+            "en": "Understand the sociocultural context"
+          },
+          {
+            "nl": "Houd rekening met het sportspecifieke landschap en wat de sport nodig heeft",
+            "en": "Consider the sport-specific landscape and what the sport wants"
+          },
+          {
+            "nl": "Hanteer een gedeelde en heldere taal",
+            "en": "Establish a common and clear language"
+          },
+          {
+            "nl": "Betrek een brede groep sporters en stel identificatie uit waar mogelijk",
+            "en": "Engage a broad base of athletes and delay identification where possible"
+          },
+          {
+            "nl": "Bied meerdere in- en uitstroommomenten",
+            "en": "Provide multiple entry and exit points"
+          },
+          {
+            "nl": "Herken en pak mogelijke vooroordelen aan",
+            "en": "Recognise and address potential biases"
+          },
+          {
+            "nl": "Erken de uitdagingen van het \"coach's eye\"",
+            "en": "Acknowledge the challenges of the \"coach's eye\""
+          },
+          {
+            "nl": "Ontwikkel gezamenlijke mentale modellen",
+            "en": "Co-create shared mental models"
+          },
+          {
+            "nl": "Gebruik passende objectieve metingen ter ondersteuning van besluitvorming",
+            "en": "Use appropriate objective measures to support decision making"
+          },
+          {
+            "nl": "Stem inter- en transdisciplinaire teams op elkaar af",
+            "en": "Align inter- and trans-disciplinary teams"
+          },
+          {
+            "nl": "Ontwerp en implementeer betekenisvolle onderwijskaders",
+            "en": "Design and implement meaningful education frameworks"
+          },
+          {
+            "nl": "Evalueer talentidentificatieprocessen regelmatig",
+            "en": "Evaluate talent identification processes regularly"
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
             "text": "De 13 principes onderstrepen dat talentidentificatie veel meer is dan het selecteren van de sporters die op dit moment het beste presteren. Het vraagt om aandacht voor de persoon achter de sporter, de specifieke context, mogelijke vooroordelen en verschillende mogelijkheden om een talentprogramma in te stromen, te verlaten én opnieuw in te stromen."
           }
         ],
