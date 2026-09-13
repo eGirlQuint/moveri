@@ -185,7 +185,16 @@ function BlockRenderer({ block, lang, sourcesLabel, headingId }: { block: Block;
   }
 }
 
-function ShareBox({ shareLabel, copyLabel, copyDoneLabel }: { shareLabel: string; copyLabel: string; copyDoneLabel: string }) {
+function WhatsAppIcon({ size }: { size: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.48-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.91-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.47 0 1.45 1.07 2.86 1.22 3.06.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" />
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.4 5.07L2 22l5.19-1.5c1.43.78 3.06 1.23 4.85 1.23 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 17.9c-1.62 0-3.13-.44-4.42-1.22l-.32-.19-3.28.95.87-3.24-.21-.33a8 8 0 1 1 7.36 4.03z" />
+    </svg>
+  )
+}
+
+function ShareBox({ shareLabel, copyLabel, copyDoneLabel, whatsAppLabel, title }: { shareLabel: string; copyLabel: string; copyDoneLabel: string; whatsAppLabel: string; title: string }) {
   const [copied, setCopied] = useState(false)
 
   async function handleCopy() {
@@ -196,6 +205,11 @@ function ShareBox({ shareLabel, copyLabel, copyDoneLabel }: { shareLabel: string
     } catch {
       // clipboard API unavailable — nothing sensible to fall back to
     }
+  }
+
+  function handleWhatsAppShare() {
+    const url = `https://wa.me/?text=${encodeURIComponent(`${title}\n${window.location.href}`)}`
+    window.open(url, "_blank", "noopener,noreferrer")
   }
 
   return (
@@ -210,6 +224,15 @@ function ShareBox({ shareLabel, copyLabel, copyDoneLabel }: { shareLabel: string
         >
           <span>{copied ? copyDoneLabel : copyLabel}</span>
           {copied ? <Check size={15} /> : <Link2 size={15} />}
+        </button>
+        <button
+          type="button"
+          onClick={handleWhatsAppShare}
+          className="flex items-center justify-between gap-2.5 w-full transition-opacity hover:opacity-90"
+          style={{ padding: "12px 16px", borderRadius: "11px", border: "1px solid #25D366", backgroundColor: "#25D366", fontFamily: "inherit", fontSize: "13.5px", fontWeight: 500, color: "#fff", cursor: "pointer" }}
+        >
+          <span>{whatsAppLabel}</span>
+          <WhatsAppIcon size={15} />
         </button>
       </div>
     </div>
@@ -319,7 +342,7 @@ export function ActueelDetailPage({ post }: { post: ActueelPost }) {
               </div>
             )}
 
-            <ShareBox shareLabel={t.actueelShare} copyLabel={t.actueelCopyLink} copyDoneLabel={t.actueelCopyLinkDone} />
+            <ShareBox shareLabel={t.actueelShare} copyLabel={t.actueelCopyLink} copyDoneLabel={t.actueelCopyLinkDone} whatsAppLabel={t.actueelShareWhatsApp} title={bi(post.title, lang)} />
           </aside>
         </div>
       </article>
