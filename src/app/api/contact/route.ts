@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { checkRateLimit } from "@/lib/rate-limit"
+import { sendContactEmail } from "@/lib/mailer"
 
 function getClientIp(req: NextRequest): string {
   const realIp = req.headers.get("x-real-ip")
@@ -85,6 +86,18 @@ export async function POST(req: NextRequest) {
   if (!discordRes.ok) {
     console.error("Discord webhook rejected the message:", discordRes.status, await discordRes.text().catch(() => ""))
     return NextResponse.json({ error: "delivery_failed" }, { status: 502 })
+  }
+
+  // Also mirror the message to the Zoho inbox, with Reply-To set to the
+  // visitor so it can be answered directly from the inbox. Best-effort: the
+  // Discord webhook above is the required delivery channel, so a transient
+  // SMTP problem shouldn't turn into a failed submission for the visitor.
+  if (process.env.ZOHO_SMTP_USER && process.env.ZOHO_SMTP_PASS) {
+    try {
+      await sendContactEmail({ name, email, phone: typeof phone === "string" ? phone : undefined, message })
+    } catch (err) {
+      console.error("Failed to send contact email via Zoho SMTP:", err)
+    }
   }
 
   return NextResponse.json({ ok: true })
