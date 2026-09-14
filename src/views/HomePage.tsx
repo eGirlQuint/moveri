@@ -105,7 +105,7 @@ export function HomePage() {
                   {!isLast && (
                     <div className="hidden lg:block absolute right-0 top-[20%] bottom-[20%] w-px" style={{ backgroundColor: "rgba(255,248,240,0.18)" }} />
                   )}
-                  {i < 2 && (
+                  {!isLast && (
                     <div className="lg:hidden absolute bottom-0 left-[10%] right-[10%] h-px sm:hidden" style={{ backgroundColor: "rgba(255,248,240,0.15)" }} />
                   )}
                   {Icon && <Icon size={30} strokeWidth={1.5} className="mb-3 flex-shrink-0" style={{ color: "var(--primary)" }} />}
