@@ -66,11 +66,11 @@ function BlockRenderer({ block, lang, sourcesLabel, headingId }: { block: Block;
 
     case "quote":
       return (
-        <aside style={{ padding: "32px 36px", backgroundColor: "var(--foreground)", borderRadius: "18px" }}>
-          <p style={{ margin: "0 0 10px", fontSize: "10.5px", fontWeight: 600, letterSpacing: "2.4px", textTransform: "uppercase", color: "#E8A0E5", fontFamily: "var(--font-body)" }}>
+        <aside style={{ padding: "4px 0 4px 28px", borderLeft: "3px solid var(--primary)" }}>
+          <p style={{ margin: "0 0 10px", fontSize: "10.5px", fontWeight: 600, letterSpacing: "2.4px", textTransform: "uppercase", color: "var(--primary)", fontFamily: "var(--font-body)" }}>
             {block.kicker[lang]}
           </p>
-          <p style={{ margin: 0, fontSize: "clamp(1.3rem, 2.2vw, 1.65rem)", lineHeight: 1.3, fontWeight: 500, letterSpacing: "-0.01em", color: "#F4F1EB", fontFamily: "var(--font-body)" }}>
+          <p style={{ margin: 0, fontSize: "clamp(1.3rem, 2.2vw, 1.65rem)", lineHeight: 1.3, fontWeight: 500, letterSpacing: "-0.01em", color: "var(--foreground)", fontFamily: "var(--font-body)" }}>
             {block[lang]}
           </p>
         </aside>
@@ -78,7 +78,7 @@ function BlockRenderer({ block, lang, sourcesLabel, headingId }: { block: Block;
 
     case "images":
       return (
-        <div className="grid grid-cols-2 gap-4">
+        <div className={`grid ${block.items.length === 3 ? "grid-cols-3 gap-3" : "grid-cols-2 gap-4"}`}>
           {block.items.map((img, i) => (
             <figure key={i} className="m-0 overflow-hidden rounded-2xl" style={{ backgroundColor: "#E3DED6", aspectRatio: "1/1" }}>
               <img src={img.src} alt={img.alt[lang]} className="w-full h-full object-cover block" loading="lazy" />

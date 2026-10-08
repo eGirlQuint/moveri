@@ -1,5 +1,122 @@
 [
   {
+    "slug": "sterke-organisaties-bouw-je-samen",
+    "category": "blog",
+    "categoryLabel": {
+      "nl": "Blog",
+      "en": "Blog"
+    },
+    "date": {
+      "nl": "Oktober 2026",
+      "en": "October 2026"
+    },
+    "meta": {
+      "nl": "Leiderschap in de sport",
+      "en": "Leadership in sport"
+    },
+    "author": "Irene Faber",
+    "title": {
+      "nl": "Sterke organisaties bouw je samen",
+      "en": "Strong organisations are built together"
+    },
+    "excerpt": {
+      "nl": "Van 3 tot en met 5 oktober nam Irene in Lausanne deel aan de IOC x ASOIF Women’s Leadership Workshop. Een driedaags programma voor vrouwelijke leiders uit de internationale sport, over leiderschap, communicatie, onderhandelen en het innemen van positie binnen complexe sportorganisaties.",
+      "en": "From 3 to 5 October, Irene took part in the IOC x ASOIF Women’s Leadership Workshop in Lausanne. A three-day programme for women leaders in international sport, on leadership, communication, negotiation and taking a position within complex sports organisations."
+    },
+    "heroImage": {
+      "src": "/images/actueel-leiderschap-groep.webp",
+      "alt": {
+        "nl": "Groepsfoto van de deelnemers aan de IOC x ASOIF Women’s Leadership Workshop in Lausanne",
+        "en": "Group photo of the participants in the IOC x ASOIF Women’s Leadership Workshop in Lausanne"
+      }
+    },
+    "body": [
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Van 3 tot en met 5 oktober nam Irene in Lausanne deel aan de IOC x ASOIF Women’s Leadership Workshop. Op uitnodiging van de International Table Tennis Federation (ITTF) vertegenwoordigde zij de tafeltennissport tijdens een driedaags programma voor vrouwelijke leiders uit de internationale sport. De workshop richtte zich onder meer op leiderschap, communicatie, onderhandelen en het innemen van positie binnen complexe sportorganisaties."
+          }
+        ],
+        "en": [
+          {
+            "text": "From 3 to 5 October, Irene took part in the IOC x ASOIF Women’s Leadership Workshop in Lausanne. At the invitation of the International Table Tennis Federation (ITTF), she represented table tennis during a three-day programme for women leaders in international sport. The workshop focused on topics including leadership, communication, negotiation and taking a position within complex sports organisations."
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Voor Irene sloot het programma aan bij een overtuiging die zich door haar verschillende rollen in de sport steeds verder heeft ontwikkeld: goed leiderschap draait niet alleen om richting geven, maar vooral om samen bouwen aan een organisatie die ook zonder jou verder kan."
+          }
+        ],
+        "en": [
+          {
+            "text": "For Irene, the programme connected with a conviction that has steadily grown through her various roles in sport: good leadership is not only about setting direction, but above all about building, together, an organisation that can carry on without you."
+          }
+        ]
+      },
+      {
+        "kind": "images",
+        "items": [
+          {
+            "src": "/images/actueel-leiderschap-badge.webp",
+            "alt": {
+              "nl": "Irenes deelnemersbadge voor het IOC x ASOIF Women’s Leadership Programme in Lausanne",
+              "en": "Irene’s participant badge for the IOC x ASOIF Women’s Leadership Programme in Lausanne"
+            }
+          },
+          {
+            "src": "/images/actueel-leiderschap-irene.webp",
+            "alt": {
+              "nl": "Irene Faber aan het woord tijdens de workshop",
+              "en": "Irene Faber speaking during the workshop"
+            }
+          },
+          {
+            "src": "/images/actueel-leiderschap-flipchart.webp",
+            "alt": {
+              "nl": "Een flip-over vol post-its met de namen van de deelnemers",
+              "en": "A flip chart covered in sticky notes with the participants’ names"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "quote",
+        "kicker": {
+          "nl": "Irene Faber",
+          "en": "Irene Faber"
+        },
+        "nl": "“Sterke organisaties bouw je samen. Niet door één leider, één bestuur of één generatie, maar door kennis te delen, verschillende perspectieven serieus te nemen en anderen de ruimte te geven om verantwoordelijkheid te pakken. Voor mij is leiderschap daarom niet alleen de vraag wat ik zelf kan bijdragen, maar ook wat ik voor anderen mogelijk maak.”",
+        "en": "“Strong organisations are built together. Not by one leader, one board or one generation, but by sharing knowledge, taking different perspectives seriously and giving others the room to take responsibility. For me, leadership is therefore not only a question of what I can contribute myself, but also of what I make possible for others.”"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Die gedachte raakt ook aan de manier waarop Moveri naar talent en ontwikkeling kijkt. Individuele kwaliteiten zijn belangrijk, maar mensen ontwikkelen zich altijd in wisselwerking met hun omgeving. Coaches, teams, organisaties en leiders bepalen mede hoeveel ruimte iemand krijgt om te leren, initiatief te nemen en verder te groeien. De workshop bood daarmee niet alleen nieuwe inzichten in leiderschap, maar ook aanleiding om opnieuw te kijken naar de omstandigheden die nodig zijn om mensen én organisaties duurzaam te laten ontwikkelen."
+          }
+        ],
+        "en": [
+          {
+            "text": "That idea also relates to the way Moveri looks at talent and development. Individual qualities matter, but people always develop in interaction with their environment. Coaches, teams, organisations and leaders help determine how much room someone gets to learn, take initiative and keep growing. The workshop therefore offered not only new insights into leadership, but also a reason to look again at the conditions needed for people and organisations to develop sustainably."
+          }
+        ]
+      },
+      {
+        "kind": "quote",
+        "kicker": {
+          "nl": "Irene Faber",
+          "en": "Irene Faber"
+        },
+        "nl": "“Uiteindelijk wil ik niet dat goed leiderschap zichtbaar is in wie er aan de top staat, maar in hoeveel mensen er daarna klaarstaan om het over te nemen.”",
+        "en": "“Ultimately, I don’t want good leadership to be visible in who is at the top, but in how many people are ready to take over afterwards.”"
+      }
+    ]
+  },
+  {
     "slug": "juichen",
     "category": "blog",
     "categoryLabel": {
