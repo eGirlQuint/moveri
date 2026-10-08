@@ -16,7 +16,7 @@ export function ActueelPage() {
   const [featured, ...rest] = actueelPosts
 
   return (
-    <>
+    <div className="text-balance">
       <section className="max-w-[1180px] mx-auto px-6 lg:px-10 pt-16 lg:pt-20 pb-8">
         <div className="max-w-[720px]">
           <SectionLabel>{t.actueelLabel}</SectionLabel>
@@ -108,6 +108,6 @@ export function ActueelPage() {
           </a>
         </div>
       </section>
-    </>
+    </div>
   )
 }

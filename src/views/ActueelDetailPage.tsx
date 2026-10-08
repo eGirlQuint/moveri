@@ -248,7 +248,7 @@ export function ActueelDetailPage({ post }: { post: ActueelPost }) {
   const headingIds = headingSlugs(headingBlocks)
 
   return (
-    <>
+    <div className="text-balance">
       <article className="max-w-[1180px] mx-auto px-6 lg:px-10 pt-11">
         <a href={routes.actueel} className="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity" style={{ color: "var(--primary)", fontFamily: "var(--font-body)" }}>
           <ArrowLeft size={15} /> {t.actueelBack}
@@ -363,6 +363,6 @@ export function ActueelDetailPage({ post }: { post: ActueelPost }) {
           </div>
         </section>
       )}
-    </>
+    </div>
   )
 }
