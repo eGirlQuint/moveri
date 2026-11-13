@@ -1,5 +1,212 @@
 [
   {
+    "slug": "ben-jij-al-ingecheckt",
+    "category": "blog",
+    "categoryLabel": {
+      "nl": "Blog",
+      "en": "Blog"
+    },
+    "date": {
+      "nl": "November 2026",
+      "en": "November 2026"
+    },
+    "meta": {
+      "nl": "Teamdynamiek",
+      "en": "Team dynamics"
+    },
+    "author": "Irene Faber",
+    "title": {
+      "nl": "Ben jij al ingecheckt? Een kleine stap naar een hecht team",
+      "en": "Have you checked in yet? A small step towards a close-knit team"
+    },
+    "excerpt": {
+      "nl": "Een nieuw seizoen betekent vaak ook een nieuw team. Nieuwe spelers sluiten aan, rollen veranderen en soms staat er een andere trainer-coach voor de groep. Iedereen draagt hetzelfde shirt, maar daarmee ben je nog niet automatisch een team.",
+      "en": "A new season often means a new team as well. New players join, roles change and sometimes there is a different coach in front of the group. Everyone wears the same shirt, but that doesn’t automatically make you a team."
+    },
+    "heroImage": {
+      "src": "/images/actueel-ingecheckt.webp",
+      "alt": {
+        "nl": "Iemand checkt in met een ov-chipkaart bij een poortje op het station",
+        "en": "Someone checking in with a public transport card at a station gate"
+      }
+    },
+    "body": [
+      {
+        "kind": "heading",
+        "nl": "Kleine momenten, groot verschil",
+        "en": "Small moments, big difference"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "In een nieuw team kijken sporters vaak eerst de kat uit de boom. Mag ik fouten maken? Bij wie kan ik terecht? En hoor ik hier eigenlijk wel bij? Terwijl de trainer-coach zich richt op trainingen en wedstrijden, zijn spelers ondertussen bezig hun plek in het team te vinden."
+          }
+        ],
+        "en": [
+          {
+            "text": "In a new team, athletes often wait and see at first. Am I allowed to make mistakes? Who can I turn to? And do I actually belong here? While the coach focuses on training sessions and matches, players are busy finding their place in the team."
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Elkaar leren kennen hoeft niet te beginnen met grote teambuildingsactiviteiten. Juist kleine momenten van echte aandacht kunnen verschil maken. Probeer bijvoorbeeld eens een check-in met drie emoji’s."
+          }
+        ],
+        "en": [
+          {
+            "text": "Getting to know each other doesn’t have to start with big team-building activities. It’s precisely the small moments of genuine attention that can make a difference. Try, for example, a check-in with three emojis."
+          }
+        ]
+      },
+      {
+        "kind": "heading",
+        "nl": "Drie emoji’s",
+        "en": "Three emojis"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Vraag iedere speler om drie emoji’s te kiezen:"
+          }
+        ],
+        "en": [
+          {
+            "text": "Ask each player to choose three emojis:"
+          }
+        ]
+      },
+      {
+        "kind": "numberedList",
+        "items": [
+          {
+            "nl": "Een emoji die laat zien hoe je vandaag binnenkomt.",
+            "en": "An emoji that shows how you’re arriving today."
+          },
+          {
+            "nl": "Een emoji die weergeeft wat jij meebrengt naar het team.",
+            "en": "An emoji that reflects what you bring to the team."
+          },
+          {
+            "nl": "Een emoji die uitdrukt wat jou tijdens de training of wedstrijd kan helpen.",
+            "en": "An emoji that expresses what could help you during the training session or match."
+          }
+        ]
+      },
+      {
+        "kind": "subheading",
+        "nl": "Voorbeeld",
+        "en": "Example"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Zo kan iemand kiezen voor: 😬 gespannen · ⚡ veel energie · 🤝 behoefte aan samenwerking."
+          }
+        ],
+        "en": [
+          {
+            "text": "Someone might choose: 😬 nervous · ⚡ lots of energy · 🤝 a need for teamwork."
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Laat spelers kort vertellen waarom ze deze emoji’s kozen. Ze bepalen zelf hoeveel ze willen delen en mogen ook passen. Bij jonge spelers kunnen één of twee emoji’s al voldoende zijn."
+          }
+        ],
+        "en": [
+          {
+            "text": "Let players briefly explain why they chose these emojis. They decide for themselves how much they want to share, and they’re allowed to pass. With young players, one or two emojis can be enough."
+          }
+        ]
+      },
+      {
+        "kind": "heading",
+        "nl": "Wat levert het op?",
+        "en": "What does it bring?"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Waarom werkt zoiets eenvoudigs? Omdat gedrag niet altijd vertelt wat er werkelijk speelt. De ene speler wordt stil wanneer die gespannen is, terwijl een ander juist veel gaat praten. Iemand die boos kijkt na een fout, kan vooral teleurgesteld zijn in zichzelf. Door hierover te praten, leren spelers elkaar beter begrijpen."
+          }
+        ],
+        "en": [
+          {
+            "text": "Why does something so simple work? Because behaviour doesn’t always tell you what’s really going on. One player goes quiet when they’re nervous, while another starts talking a lot. Someone who looks angry after a mistake may mostly be disappointed in themselves. By talking about this, players learn to understand each other better."
+          }
+        ]
+      },
+      {
+        "kind": "quote",
+        "kicker": {
+          "nl": "Irene Faber",
+          "en": "Irene Faber"
+        },
+        "nl": "“Echte aandacht helpt spelers zich gezien te voelen – en dat is de basis van een hecht team.”",
+        "en": "“Genuine attention helps players feel seen – and that is the foundation of a close-knit team.”"
+      },
+      {
+        "kind": "heading",
+        "nl": "Ook waardevol voor de trainer-coach",
+        "en": "Valuable for the coach too"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Ook als trainer-coach krijg je zo informatie waarmee je beter kunt aansluiten bij wat spelers nodig hebben. Je kunt zelf beginnen met jouw emoji’s. Daarmee laat je zien dat ook jij gevoelens, verwachtingen en behoeften meebrengt. Luister vervolgens zonder ieder antwoord meteen te beoordelen, te verklaren of op te lossen. Soms is oprechte aandacht al voldoende."
+          }
+        ],
+        "en": [
+          {
+            "text": "As a coach, this also gives you information that helps you better meet players’ needs. You can start with your own emojis. That shows that you, too, bring feelings, expectations and needs. Then listen without immediately judging, explaining or solving every answer. Sometimes sincere attention is enough."
+          }
+        ]
+      },
+      {
+        "kind": "heading",
+        "nl": "Blijf inchecken",
+        "en": "Keep checking in"
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "De check-in kun je gebruiken bij de start van een nieuw team, maar ook gedurende het seizoen laten terugkomen. Mensen komen immers niet iedere training op dezelfde manier binnen. Een hecht team ontstaat niet doordat iedereen hetzelfde denkt of voelt. Het ontstaat wanneer mensen elkaar beter leren begrijpen en zich vrij genoeg voelen om te laten zien wat zij nodig hebben."
+          }
+        ],
+        "en": [
+          {
+            "text": "You can use the check-in at the start of a new team, but also bring it back throughout the season. After all, people don’t arrive at every training session in the same way. A close-knit team doesn’t come about because everyone thinks or feels the same. It comes about when people learn to understand each other better and feel free enough to show what they need."
+          }
+        ]
+      },
+      {
+        "kind": "p",
+        "nl": [
+          {
+            "text": "Welke drie emoji’s kies jij vandaag?"
+          }
+        ],
+        "en": [
+          {
+            "text": "Which three emojis would you choose today?"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "sterke-organisaties-bouw-je-samen",
     "category": "blog",
     "categoryLabel": {
